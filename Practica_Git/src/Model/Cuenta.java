@@ -1,4 +1,4 @@
-xpackage Model;
+package Model;
 
 public class Cuenta {
 
