@@ -1,11 +1,13 @@
 package Model;
 
+import java.util.ArrayList;
+
 public class Cuenta {
 
 	private String IBAN;
 	private ArrayList<Cliente> cliente;
 	private double cantidad;
-	private boolena estado;
+	private boolean estado;
 	
 	public Cuenta() {
 		this.IBAN = IBAN;
