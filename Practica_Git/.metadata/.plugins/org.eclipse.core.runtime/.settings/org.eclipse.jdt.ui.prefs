@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+>>>>>>> ee93521e7e68d509fb4d9739ef18d2f521d11075
 eclipse.preferences.version=1
 org.eclipse.jdt.ui.formatterprofiles.version=23
 spelling_locale_initialized=true
