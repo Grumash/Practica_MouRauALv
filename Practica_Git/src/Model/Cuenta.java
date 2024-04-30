@@ -1,15 +1,15 @@
-xpackage Model;
+package Model;
 
 public class Cuenta {
 
 	private String IBAN;
-	private ArrayList<Cliente> cliente;
+	private Cliente cliente;
 	private double cantidad;
-	private boolena estado;
+	private boolean estado;
 	
-	public Cuenta() {
+	public Cuenta(String IBAN, Cliente cliente, double cantidad) {
 		this.IBAN = IBAN;
-		this.cliente = new ArratList<>();
+		this.cliente = cliente;
 		this.cantidad = cantidad;
 		this.estado = true;
 	}

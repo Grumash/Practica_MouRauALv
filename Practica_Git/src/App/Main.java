@@ -1,10 +1,15 @@
 package App;
 
+import Model.Cliente;
+import Model.Cuenta;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Cliente cliente1 = new Cliente ("Manolo", "Martinez", 54);
+		Cliente cliente2 = new Cliente ("Paquillo", "Rubiales", 78);
+		
+		Cuenta cuenta1 = new Cuenta ("ES1122", cliente1, 2756.72 );
 	}
 
 }
