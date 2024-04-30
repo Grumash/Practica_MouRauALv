@@ -11,7 +11,7 @@ public abstract class Operaciones
         this.cuentaCancelada = false;
     }
         	
-    public abstract void transferencia (Cuenta cuentaOrigen, Cuenta cuentaDesitno, double cantidad);
+    public abstract void transferencia (Cuenta cuentaOrigen, Cuenta cuentaDestino, double cantidad);
 	
     public abstract void prestamo (Cuenta cuentaDestino, double cantidad);
 	
